@@ -3,7 +3,7 @@ import gql from "graphql-tag";
 import express from "express";
 import { readFileSync } from "fs";
 import resolvers from "./src/resolvers.js";
-import records from "./src/src/routes/record.js";
+import records from "./src/routes/record.js";
 import { ApolloServer } from '@apollo/server';
 import { buildSubgraphSchema } from '@apollo/subgraph';
 import { expressMiddleware } from '@apollo/server/express4';
