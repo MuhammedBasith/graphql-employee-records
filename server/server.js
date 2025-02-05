@@ -16,7 +16,7 @@ app.use(express.json());
 
 
 const typeDefs = gql(
-    readFileSync("schema.graphql", {
+    readFileSync("./src/schema.graphql", {
       encoding: "utf-8",
     })
   );
